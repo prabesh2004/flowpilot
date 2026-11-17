@@ -1,0 +1,30 @@
+# Python environments and artifacts
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Local editor and OS files
+.vscode/
+*.vsix
+.DS_Store
+Thumbs.db
+
+# Project documentation kept local
+*.md
+
+# Node/frontend artifacts (for later)
+node_modules/
+dist/
+build/
+
+# Local logs
+*.log
